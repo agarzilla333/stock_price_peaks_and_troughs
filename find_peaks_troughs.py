@@ -1,7 +1,5 @@
-import argparse
+import argparse, xlrd, xlsxwriter
 from datetime import datetime, date
-import xlrd
-import xlsxwriter
 
 ### example: results_dict = { start_date: [start_date, end_date, start_price, end_price, percent_chg, number_days, index_end_date], ...}
 ### example: data = [date, cur_close_price]
